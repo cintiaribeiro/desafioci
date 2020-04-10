@@ -15,6 +15,6 @@ steps:
   - '-t'
   - 'gcr.io/$PROJECT_ID/soma:1.0'
   - '.'
-  images:
-  - 'gcr.io/$PROJECT_ID/soma:latest'
-  - 'gcr.io/$PROJECT_ID/soma:1.0'
+images:
+- 'gcr.io/$PROJECT_ID/soma:latest'
+- 'gcr.io/$PROJECT_ID/soma:1.0'
