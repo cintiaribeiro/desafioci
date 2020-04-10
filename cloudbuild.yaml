@@ -5,7 +5,7 @@ steps:
   args: ['test', './src/', '-v']
 
 - id: "Criando Imagem"
-  name: 'gcr.io/cloud-builders/docker'
+  name: "gcr.io/cloud-builders/docker"
   args:
   - 'build'
   - '--build-arg'
@@ -15,6 +15,6 @@ steps:
   - '-t'
   - 'gcr.io/$PROJECT_ID/soma:1.0'
   - '.'
-images:
-- 'gcr.io/$PROJECT_ID/soma:latest'
-- 'gcr.io/$PROJECT_ID/soma:1.0'
+  images:
+  - 'gcr.io/$PROJECT_ID/soma:latest'
+  - 'gcr.io/$PROJECT_ID/soma:1.0'
