@@ -9,7 +9,7 @@ steps:
   args:
   - 'build'
   - '-t'
-  - 'gcr.io/$PROJECT_ID/soma:latest'
+  - 'gcr.io/$PROJECT_ID/goapp:latest'
   - '.'
 images:
-- 'gcr.io/$PROJECT_ID/soma:latest'
+- 'gcr.io/$PROJECT_ID/goapp:latest'
