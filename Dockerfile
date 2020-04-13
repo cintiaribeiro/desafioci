@@ -1,5 +1,5 @@
 FROM golang:stretch AS builder 
-ADD ./main.go /go/src/app/
+ADD ./src/main.go /go/src/app/
 RUN cd /go/src/app && go build -o goapp
 
 FROM scratch
