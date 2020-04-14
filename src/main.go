@@ -2,8 +2,8 @@ package main
 
 import "fmt"
 
-func soma(num1 int, num2 int) int{
-	return num1 + num2
+func soma(n1 int, n2 int) int{
+	return n1 + n2
 }
 
 func main(){
